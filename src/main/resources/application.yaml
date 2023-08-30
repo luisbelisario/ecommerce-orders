@@ -1,6 +1,11 @@
 spring:
   application:
     name: ecommerce-orders
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerce-orders
+  kafka:
+    bootstrap-servers: localhost:9092
 
 server:
   port: 8083
